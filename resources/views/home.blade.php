@@ -2,7 +2,7 @@
 @section('title', 'Home')
 @section('content')
 
-    <div class="position-absolute" style="top:50%; left: 50%; transform: translate(-50%, -50%)">
+    <div class="position-absolute top-50 start-50 translate-middle">
         <h1>Hello World</h1>
     </div>
 
