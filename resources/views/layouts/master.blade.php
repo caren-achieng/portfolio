@@ -11,8 +11,11 @@
 </head>
 <body>
 
-@include('includes.navbar')
-@yield('content')
+<div id="main-wrapper">
+    @include('includes.navbar')
+
+    @yield('content')
+</div>
 
 @include('includes.scripts')
 
