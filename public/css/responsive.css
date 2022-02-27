@@ -1,0 +1,8 @@
+@media (min-width: 1200px) {
+    .text-12 {
+        font-size: 3rem !important;
+    }
+    .text-24 {
+        font-size: 8.25rem !important;
+    }
+}

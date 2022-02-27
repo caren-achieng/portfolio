@@ -1,33 +1,15 @@
-:root {
-    --nav-width: 15rem;
-
-    --body-light: #aab1b8
-}
+@import 'global.css';
 
 body, html {
+    font-family: 'Varela Round', sans-serif;
     height: 100%;
 }
-
-
-/* ----- *** ________________ GLOBAL ________________ *** ----- */
-a, a:focus {
-    text-decoration: none;
-    transition: all .2s ease;
-}
-.fullscreen {
-    min-height: 100vh!important;
-}
-.opacity-8 {
-    opacity: .8;
-}
-
 
 
 /* ----- *** ________________ HOME ________________ *** ----- */
 #main-wrapper {
     margin-left: var(--nav-width);
 }
-
 
 
 /* ----- *** ________________ HEADER ________________ *** ----- */
@@ -50,25 +32,35 @@ a, a:focus {
     overflow-y: auto;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.065);
 }
+.primary-menu ul.navbar-nav > li:hover > a:not(.btn), .primary-menu ul.navbar-nav > li > a.active:not(.btn) {
+    color: #20c997;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.primary-menu.navbar-text-light .navbar-nav > li > a:not(.btn) {
+    color: rgba(250, 250, 250, 0.9);
+}
 
 #header .navbar-nav {
     flex-direction: column;
     width: 100%;
 }
 
-#header .social-icons {
+.social-icons {
     margin: 0;
+    padding: 0;
+    display: flex;
     flex-wrap: wrap;
     list-style: none;
-    padding: 0;
 }
 
-#header .social-icons li {
+.social-icons li {
+    margin: 2px 6px;
     padding: 0;
     overflow: visible;
 }
 
-#header .social-icons li a {
+.social-icons li a {
     display: block;
     height: 1.5rem;
     line-height: 1.5rem;
@@ -76,13 +68,16 @@ a, a:focus {
     text-align: center;
     text-decoration: none;
     transition: all .2s ease;
+    font-size: 18px;
+    color: #4d555a;
+    -webkit-transition: all 0.2s ease;
 }
 
 #header .social-icons.social-icons-sm li a {
     font-size: 10pt;
 }
 
-body:not(.rtl) #header .social-icons li:first-child {
+body:not(.rtl) .social-icons li:first-child {
     margin-left: 0;
 }
 
@@ -95,8 +90,13 @@ body:not(.rtl) #header .social-icons li:first-child {
 }
 
 
-
 /* ----- *** ________________ SECTIONS ________________ *** ----- */
+
+.section {
+    position: relative;
+    padding: 4.5rem 0;
+    overflow: hidden;
+}
 
 .hero-wrap {
     position: relative;
@@ -119,10 +119,12 @@ body:not(.rtl) #header .social-icons li:first-child {
     width: 100%;
     height: 100%;
 }
+
 .hero-wrap .hero-content {
     position: relative;
     z-index: 2;
 }
+
 .scroll-down-arrow {
     position: absolute;
     z-index: 3;
@@ -134,4 +136,19 @@ body:not(.rtl) #header .social-icons li:first-child {
     line-height: 32px;
     font-size: 20px;
     text-align: center;
+}
+
+
+
+/* ----- *** ________________ FOOTER ________________ *** ----- */
+
+#footer .nav .nav-item {
+    display: inline-block;
+    line-height: 12px;
+    margin: 0;
+}
+#footer .nav .nav-item .nav-link {
+    color: #252b33;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
