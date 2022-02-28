@@ -48,7 +48,7 @@
             </div>
             <div class="col-md-8 col-xl-9 order-0 order-md-1">
                 <h2 class="mb-3 text-5 text-uppercase text-center text-md-start">Send me a note</h2>
-                <form id="contact-form" action="php/mail.php" method="post">
+                <form id="contact-form" action="{{ route('contact') }}" method="post">
                     <div class="row g-4">
                         <div class="col-xl-6">
                             <input name="name" type="text" class="form-control" required placeholder="Name" aria-label>
@@ -57,7 +57,7 @@
                             <input name="email" type="email" class="form-control" required placeholder="Email" aria-label>
                         </div>
                         <div class="col">
-                            <textarea name="form-message" class="form-control" rows="5" required placeholder="Tell me more about your needs........" aria-label></textarea>
+                            <textarea name="message" class="form-control" rows="5" required placeholder="Tell me more about your needs........" aria-label></textarea>
                         </div>
                     </div>
 

@@ -14,7 +14,7 @@
 
         <div class="row gy-5">
             <div class="col-lg-7 col-xl-8 text-center text-lg-start">
-                <h2 class="text-7 fw-600 mb-3">I'm <span class="text-primary">Simone Olivia,</span> a Web Developer</h2>
+                <h2 class="text-7 fw-600 mb-3">I'm <span class="text-primary">Caren Achieng,</span> a Web Developer</h2>
                 <p>
                     I help you build brand for your business at an affordable price. Thousands of clients have procured
                     exceptional results while working with our dedicated team. when an unknown printer took a galley of

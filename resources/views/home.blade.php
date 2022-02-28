@@ -8,6 +8,7 @@
         @include('includes.sections.services')
         @include('includes.sections.resume')
         @include('includes.sections.portfolio')
+        @include('includes.sections.testimonials')
         @include('includes.sections.contact')
     </div>
 

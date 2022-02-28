@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', fn () => view('home'));
+Route::post('/contact', ContactController::class)->name('contact');
 
 Route::get('/admin', function () {
     return view('admin.dashboard');
