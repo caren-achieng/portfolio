@@ -15,7 +15,7 @@
                         </div>
                         <p class="text-7 fw-500 text-white mb-2 mb-md-3">Welcome</p>
                         <h2 class="text-16 fw-600 text-white mb-2 mb-md-3"><span
-                                class="typed">I'm a Freelanc</span><span class="typed-cursor">|</span></h2>
+                                class="typed">I'm a Freelanc</span><span class="typed-cursor"></span></h2>
                         <p class="text-5 text-light mb-4">based in Nairobi, Kenya.</p>
                         <a href="#contact" class="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2">Hire
                             Me</a>

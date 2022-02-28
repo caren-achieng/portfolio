@@ -137,6 +137,84 @@ body:not(.rtl) .social-icons li:first-child {
     font-size: 20px;
     text-align: center;
 }
+.scroll-down-arrow .animated {
+    position: relative;
+    animation: fadeInDown 1.5s infinite;
+    -webkit-animation: fadeInDown 1.5s infinite;
+    -moz-animation: fadeInDown 1.5s infinite;
+    -o-animation: fadeInDown 1.5s infinite;
+}
+@keyframes fadeInDown {
+    0% {
+        top: -25px;
+        opacity: 0;
+    }
+    100% {
+        top: 10px;
+        opacity: 1;
+    }
+}
+
+
+
+/* ----- *** ________________ PORTFOLIO ________________ *** ----- */
+
+.nav-tabs:not(.flex-column) .nav-item {
+    margin-bottom: 0;
+}
+.nav:not(.nav-pills) .nav-item .nav-link.active, .nav:not(.nav-pills) .nav-item .nav-link:hover {
+    color: var(--primary-color);
+}
+.nav-tabs .nav-item .nav-link {
+    border: 0;
+    background: transparent;
+    position: relative;
+    border-radius: 0;
+    padding: 0.6rem 1rem;
+    color: #7b8084;
+    white-space: nowrap !important;
+}
+.nav-tabs .nav-item .nav-link.active:after {
+    height: 2px;
+    width: 100%;
+    content: ' ';
+    background-color: #20c997;
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transform: translateY(-3px);
+}
+
+.portfolio .portfolio-box {
+    position: relative;
+}
+.portfolio .portfolio-box .portfolio-img {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio .portfolio-box .portfolio-img img {
+    transition: all 0.3s ease-in-out;
+}
+.portfolio .portfolio-box .portfolio-overlay {
+    text-align: center;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.portfolio .portfolio-box .portfolio-overlay-details {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 
 

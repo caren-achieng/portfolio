@@ -3,6 +3,7 @@
 :root {
     --nav-width: 15rem;
 
+    --primary-color: #20c997;
     --body-light: #aab1b8;
     --text-light: #dee3e4 !important;
 }

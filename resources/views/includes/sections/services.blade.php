@@ -11,7 +11,7 @@
 
         <div class="row">
             <div class="col-lg-11 mx-auto">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-md-6">
                         <div class="featured-box style-3 mb-5">
                             <div class="featured-box-icon text-primary bg-white shadow-sm rounded"> <i class="fas fa-palette"></i> </div>

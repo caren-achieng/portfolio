@@ -29,13 +29,13 @@
                 <div class="ps-lg-4">
                     <ul class="list-style-2">
                         <li class="">
-                            <span class="fw-600 me-2">Name:</span>Simone Olivia
+                            <span class="fw-600 me-2">Name:</span>Caren Achieng
                         </li>
                         <li class="">
-                            <span class="fw-600 me-2">Email:</span><a href="mailto:chat@simone.com">chat@simone.com</a>
+                            <span class="fw-600 me-2">Email:</span><a href="mailto:chat@simone.com">caren.achieng@strathmore.edu</a>
                         </li>
-                        <li class=""><span class="fw-600 me-2">Age:</span>28</li>
-                        <li class="border-0"><span class="fw-600 me-2">From:</span>Los Angeles, California</li>
+                        <li class=""><span class="fw-600 me-2">Age:</span>21</li>
+                        <li class="border-0"><span class="fw-600 me-2">From:</span>Nairobi, Kenya</li>
                     </ul>
                     <a href="#" class="btn btn-primary rounded-pill">Download CV</a></div>
             </div>

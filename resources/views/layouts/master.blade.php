@@ -9,7 +9,7 @@
 
     @include('includes.links')
 </head>
-<body>
+<body class="side-header">
 
 <div id="main-wrapper">
     @include('includes.navbar')
